@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css"/>
+    <link rel="icon" href="/utils/img/gallery.png"/>
+    <title>scorpionImagen</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <img class="main-header__nav-img" src="/utils/img/gallery.png" alt="Icono de ScorpionImage"/>
+            <h1 class="main-header__nav-text">SCORPIONIMAGE</h1>
+        </nav>
+    </header>
+    <section class="container" id="container">
+        <h1 class="container__text">Preferencias de usuario</h1>
+        <div class="container__avatar-box" id="avatar-box">
+            <span class="loading" id="loading">Cargando...</span>
+        </div>
+        <form id="form">
+            <select name="category" class="category-selector">
+                <option value="none" selected disabled>--Selecciona Aqui--</option>
+                <option value="man">Hombre</option>
+                <option value="woman">Mujer</option>
+                <option value="animal">Animal</option>
+                <option value="object">Objeto</option>
+            </select>
+            <button class="btn-generate" id="btn-generate">Genera!</button>
+        </form>
+    </section>
+    <script src="/js/index.js"></script>
+</body>
+</html>
