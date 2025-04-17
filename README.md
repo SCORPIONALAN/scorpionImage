@@ -19,3 +19,11 @@ Esta es una mini aplicacion que consta de enteramente una construccion en expres
 - **CSS** para los estilos
 - **JavaScript vanilla** para toda la parte de funcionalidades
 `recordemos que esto lo hago con el fin de hacer un repaso a las cosas basicas y no estancarme solamente con react`
+
+## Costos
+Por 30 imagenes generadas fue un total de $0.77 dolares
+![alt text](./img/costo.png)
+
+## Muestra del funcionamiento
+
+![alt text](./img/p1.png)![alt text](./img/p2.png)

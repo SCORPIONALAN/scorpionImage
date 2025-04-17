@@ -27,7 +27,12 @@ form.addEventListener("submit", async(e)=>{
         let data = await peticion.json();
         console.log(data)
         if(data && data.imgURL){
-            const img = document.createElement("img")
+            const lastChild = avatarBox.lastChild;
+            // Si ya existe una instancia removemos
+            if (lastChild instanceof HTMLImageElement) {
+                lastChild.remove();
+            }
+            const img = document.createElement("img");
             img.src = data.imgURL;
             img.alt = "Imagen generada con IA";
             avatarBox.appendChild(img);
